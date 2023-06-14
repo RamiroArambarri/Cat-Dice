@@ -16,8 +16,10 @@ function giro() {
 function dado() {
 	resultado = Math.floor(6*Math.random() + 1);
 	console.log(resultado);
+	imagen.style.opacity = 1;
 	imagen.src = 'imagenes/' + resultado + '.jpg';
 	giro();
+	document.getElementById('numero').innerHTML = "¡" + resultado + "!";
 }
 
 function mostrar_creditos() {

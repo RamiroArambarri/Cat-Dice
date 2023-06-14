@@ -1,6 +1,7 @@
 body {
 	background-color: #444;
 	text-align: center;
+	color: whitesmoke;
 }
 
 
@@ -28,6 +29,7 @@ body {
 img {
 	width: 30%;
 	max-width: 30%;
+	opacity: 0;
 }
 
 
@@ -36,7 +38,6 @@ img {
 	position: fixed;
 	bottom: 0;
 	margin-left: 10%;
-	color: whitesmoke;
 }
 
 #creditos:active{
