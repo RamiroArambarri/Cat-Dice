@@ -4,6 +4,12 @@ body {
 	color: whitesmoke;
 }
 
+#contenedor {
+	width: 30%;
+	min-width: 4cm;
+	margin: 0 auto;
+}
+
 
 #boton {
 	background-color:MediumVioletRed;
@@ -27,9 +33,9 @@ body {
 }
 
 img {
-	width: 30%;
-	max-width: 30%;
 	opacity: 0;
+	width: 100%;
+	max-width: 100%;
 }
 
 
